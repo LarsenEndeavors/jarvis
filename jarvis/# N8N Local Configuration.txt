@@ -1,0 +1,5 @@
+# N8N Local Configuration
+
+- Docker Compose N8N
+- Cloudflare Tunnel (nglars@gmail.com)
+- WARP Local

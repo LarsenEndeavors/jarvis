@@ -1,0 +1,79 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: jarvis_n8n
+    ports:
+      - "5678:5678"   # remove if you want n8n only via Cloudflare
+    environment:
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
+      N8N_PORT: "5678"
+      N8N_PROTOCOL: "http"
+      WEBHOOK_URL: "https://fen1x.org"
+      GENERIC_TIMEZONE: "America/Chicago"
+      TZ: "America/Chicago"
+      NODE_ENV: "production"
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
+    volumes:
+      - n8n_data:/home/node/.n8n
+    restart: unless-stopped
+    networks:
+      - jarvis
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: jarvis_cloudflared
+    depends_on:
+      - n8n
+    command: >
+      tunnel --no-autoupdate --protocol http2 --edge-ip-version 4 --ha-connections 2
+      run --token ${CLOUDFLARED_TOKEN}
+    restart: unless-stopped
+    networks:
+      - jarvis
+
+  redis:
+    image: redis:alpine
+    container_name: jarvis_redis
+    restart: unless-stopped
+    networks:
+      - jarvis
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: jarvis_searxng
+    depends_on:
+      - redis
+    environment:
+      SEARXNG_BASE_URL: "http://searxng:8080/"
+      SEARXNG_REDIS_URL: "redis://redis:6379/0"
+    volumes:
+      - ./searxng:/etc/searxng:rw
+    restart: unless-stopped
+    networks:
+      - jarvis
+    # Uncomment to access from host at http://localhost:8080
+    # ports:
+    #   - "8080:8080"
+
+  extractor:
+    image: python:3.12-slim
+    container_name: jarvis_extractor
+    working_dir: /app
+    volumes:
+      - ./extractor:/app
+    command: >
+      bash -lc "pip install -r requirements.txt &&
+      uvicorn app:app --host 0.0.0.0 --port 8000"
+    restart: unless-stopped
+    networks:
+      - jarvis
+    # Uncomment to access from host at http://localhost:8000
+    # ports:
+    #   - "8000:8000"
+
+networks:
+  jarvis:
+
+volumes:
+  n8n_data:
+    name: n8n_data
