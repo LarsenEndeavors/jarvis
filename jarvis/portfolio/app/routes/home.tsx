@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import Root from "./root";
+import Root from "../root";
 
 export function meta({}: Route.MetaArgs) {
   return [
