@@ -4,17 +4,17 @@ export default [
     index("routes/home.tsx"),
     
     ...prefix("work", [
-        index("./routes/work_index.tsx"),
+        index("./routes/work._index.tsx"),
         route(":slug", "./routes/work.$slug.tsx"),
     ]),
 
     ...prefix("stories", [
-        index("./routes/stories_index.tsx"),
+        index("./routes/stories._index.tsx"),
         route(":slug", "./routes/stories.$slug.tsx"),
     ]),
 
     ...prefix("blog", [
-        index("./routes/blog_index.tsx"),
+        index("./routes/blog._index.tsx"),
         route(":slug", "./routes/blog.$slug.tsx"),
     ]),
 
