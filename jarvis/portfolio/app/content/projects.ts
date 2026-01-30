@@ -1,5 +1,3 @@
-import { platform } from "os";
-
 export type Project = {
     slug: string;
     title: string;
@@ -26,11 +24,11 @@ export const projects: Project[] = [
         links: { github: "https://github.com/binarybarnyard/Penumbras-Edge" }
     },
     {
-        slug: "elementmarketing",
-        title: "ELementMarketing.Solutions",
-        summary: "Next.js site for my LLC-brand hub + experiments, (yes there's an easter egg).",
+        slug: "element-marketing",
+        title: "ElementMarketing.Solutions",
+        summary: "Next.js site for my LLC-brand hub + experiments, (click the 'P' in the header for an easter egg).",
         tags: ["Next.js", "Web", "Deployment"],
-        links: { github: "https://github.com/LarsenEndeavors/ink-and-parchement"}
+        links: { github: "https://github.com/LarsenEndeavors/ink-and-parchement", live: "https://elementmarketing.solutions"},
     },
     {
         slug: "tailorClass",
