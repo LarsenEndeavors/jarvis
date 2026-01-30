@@ -2,13 +2,19 @@ services:
   n8n:
     image: n8nio/n8n:latest
     container_name: jarvis_n8n
-    ports:
-      - "5678:5678"   # remove if you want n8n only via Cloudflare
+    #ports:
+    #   - "5678:5678"
     environment:
       N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
       N8N_PORT: "5678"
-      N8N_PROTOCOL: "http"
-      WEBHOOK_URL: "https://fen1x.org"
+
+      # External/public URL settings
+      N8N_HOST: "n8n.fen1x.org"
+      N8N_PROTOCOL: "https"
+      WEBHOOK_URL: "https://n8n.fen1x.org/"
+      N8N_EDITOR_BASE_URL: "https://n8n.fen1x.org/"
+      N8N_PROXY_HOPS: "1"
+
       GENERIC_TIMEZONE: "America/Chicago"
       TZ: "America/Chicago"
       NODE_ENV: "production"
@@ -70,7 +76,14 @@ services:
     # Uncomment to access from host at http://localhost:8000
     # ports:
     #   - "8000:8000"
-
+  portfolio:
+    build: ./portfolio
+    container_name: jarvis_portfolio
+    restart: unless-stopped
+    networks:
+      - jarvis
+#    ports:
+#      - "5679:5679"
 networks:
   jarvis:
 
