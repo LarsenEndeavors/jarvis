@@ -11,7 +11,7 @@ export default function Nav() {
         <header className="border-b">
             <div className="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
                 <NavLink to="/" className="font-semibold tracking-tight">
-                    fen1x.org
+                    <img alt="fen1x.org" src="favicon.svg" className="w-30 h-20 mr-2 hover:bg-black/5"/>
                 </NavLink>
                 <nav className="flex gap-1">
                     <NavLink to="/work" className={linkClass}>Work</NavLink>
