@@ -7,18 +7,15 @@ export default function StoryDetail() {
     const [markdown, setMarkdown] = useState("");
     const { slug } = useParams()
     const story = slug ? getStory(slug) : undefined;
-    console.log("Story: " + JSON.stringify(story, null, 2));
     if (!story) {
         throw new Response("not Found", { status: 404 });
     }
 
     const markdownFilePath = `/content/stories/${story.slug}.md`
-    console.log("Markdown Text: " + markdown)
 
     useEffect(() => {
         fetch(markdownFilePath)
         .then(res => {
-            console.log(res);
             return res.text();
         })
         .then(text => setMarkdown(text))
