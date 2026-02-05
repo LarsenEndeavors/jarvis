@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router";
-import { getStory } from "./stories._index";
 import Markdown from "react-markdown";
 import { useEffect, useState } from "react";
+import { getStory } from "~/content/stories";
 
 export default function StoryDetail() {
     const [markdown, setMarkdown] = useState("");
@@ -10,14 +10,12 @@ export default function StoryDetail() {
     if (!story) {
         throw new Response("not Found", { status: 404 });
     }
-
-    const markdownFilePath = `/content/stories/${story.slug}.md`
+    
+    const markdownFilePath = story.markdownPath ?? `/content/stories/${story.slug}.md`;
 
     useEffect(() => {
         fetch(markdownFilePath)
-        .then(res => {
-            return res.text();
-        })
+        .then(res => res.text())
         .then(text => setMarkdown(text))
         .catch(err => console.error(err));
     }, [markdownFilePath]); // Fetch when the file path changes
@@ -27,11 +25,17 @@ export default function StoryDetail() {
             <Link to="/stories" className="text-sm opacity-80 hover:opacity-100">
                 ← Back to Stories
             </Link>
-            <div className="markdown-container">
+            <article className="mt-6 leading-relaxed
+                [&_h1]:text-3xl [&_h1]:font-semibold
+                [&_h2]:text-2xl [&_h2]:font-semibold
+                [&_p]:mt-4
+                [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-6
+                [&_code]:px-1 [&_code]:rounded [&_code]:bg-black/5"
+            >
                 <Markdown>
                     {markdown}
                 </Markdown>
-            </div>
+            </article>
         </div>
     );
 }

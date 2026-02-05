@@ -18,7 +18,3 @@ export default function StoryIndex() {
         </div>
     );
 }
-
-export function getStory(slug: string) {
-    return stories.find(s => s.slug === slug);
-}
