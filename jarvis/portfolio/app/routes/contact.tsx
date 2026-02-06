@@ -10,18 +10,19 @@ export default function Contact() {
         setError(null);
 
         const form = new FormData(e.currentTarget);
+        const formElement = e.currentTarget as HTMLFormElement;
         const payload = Object.fromEntries(form.entries());
         console.log("Submitting contact form with payload:", payload);
         try {
             const res = await fetch("https://n8n.fen1x.org/webhook/portfolio/contact-form", {
                 method:"POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(payload)
+                body: form
             });
 
             if (!res.ok) throw new Error(`Webhook returned ${res.status}`);
             setStatus("success");
-            e.currentTarget.reset()!;
+            // reset form after successful submission
+            formElement.reset();
         } catch (err: any) {
             setStatus("error");
             setError(err?.message ?? "An unknown error occurred");
