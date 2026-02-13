@@ -1,6 +1,5 @@
 # Not Black and White
 
-## Not Black and White
 Nova stretched endlessly into the dark, neon lights casting a slick glow over its damp streets. The rain whispered, tapping a relentless rhythm against metal and stone, a pulse that matched the steady thrum of the city’s heart. Above it all, New Nova hovered, the floating city’s spires gleaming with arcane brilliance, a beacon of what was possible and what was lost. From below, it looked like a promise half-fulfilled, or maybe just a lie too well-dressed to be questioned.
 
 Rhyne walked the streets below, her boots barely making a sound as they hit the pavement. She was just one of millions, but the weight of her thoughts threatened to drown her. She pulled her coat tighter, the fabric slick with rain. This was her city, but today, it felt like a stranger. The people moved around her, fast, disconnected, caught in the grind of Nova's machine. She slipped between them, unnoticed, unseen. A ghost among the living.

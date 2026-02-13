@@ -16,10 +16,17 @@ export const stories: Story[] = [
     },
     {
         title: "Not Black & White",
-        summary: "A musician regains rediscovers his long lost magic the morning before his final symphony",
-        tags: ["Fantasy", "Dialog Free"],
+        summary: "A woman returns to her life and realizes she has a lot of work to do to save the universe.",
+        tags: ["Fantasy", "Cyberpunk", "Noir"],
         slug: "blackAndWhite",
         markdownPath: "/content/stories/blackAndWhite.md"
+    },
+    {
+        title: "The Notes You Don't Play",
+        summary: "A retiring dragonborn musician discovers his magic on the last night of his career.",
+        tags: ["Fantasy", "Magic", "Music"],
+        slug: "notesYouDontPlay",
+        markdownPath: "/content/stories/thenotesyoudontplay.md"
     }
 ]
 
