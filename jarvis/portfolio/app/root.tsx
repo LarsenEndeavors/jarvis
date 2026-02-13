@@ -1,5 +1,6 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
 import Nav from "~/components/Nav";
+import MatrixBackground from "~/components/MatrixBackground";
 import "./app.css";
 
 export default function Root() {
@@ -17,20 +18,23 @@ export default function Root() {
         <Meta />
       </head>
       <body>
-        <div className="min-h-dvh flex flex-col">
+        <div className="min-h-dvh flex flex-col relative z-10 text-slate-100">
+        <MatrixBackground />
+        <div className="min-h-dvh flex flex-col z-20">
           <Nav />
           <main className="flex-1">
             <Outlet />
-          </main>
-          <footer className="border-t">
-            <div className="mx-auto max-w-5xl px-4 py-6 text-sm opacity-80">
-              © {new Date().getFullYear()} Nicholas Larsen - Architect &amp;
-              Storyteller
-            </div>
-          </footer>
+            </main>
+            <footer className="border-t">
+              <div className="mx-auto max-w-5xl px-4 py-6 text-sm opacity-80">
+                © {new Date().getFullYear()} Nicholas Larsen - Architect &amp;
+                Storyteller
+              </div>
+            </footer>
+          </div>
+          <ScrollRestoration />
+          <Scripts />
         </div>
-        <ScrollRestoration />
-        <Scripts />
       </body>
     </html>
   );

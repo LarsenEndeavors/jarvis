@@ -27,6 +27,13 @@ export const stories: Story[] = [
         tags: ["Fantasy", "Magic", "Music"],
         slug: "notesYouDontPlay",
         markdownPath: "/content/stories/thenotesyoudontplay.md"
+    },
+    {
+        title: "The Screw",
+        summary: "A screw lies on a workbench",
+        tags: ["Absurdist", "Existential"],
+        slug: "theScrew",
+        markdownPath: "/content/stories/theScrew.md"
     }
 ]
 
