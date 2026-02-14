@@ -1,7 +1,16 @@
+import type { Route } from "./+types/blog.$slug";
 import { Link, useParams } from "react-router";
 import Markdown from "react-markdown";
 import { useEffect, useState } from "react";
 import { getBlog } from "~/content/blogs";
+
+export function meta({ params }: Route.MetaArgs) {
+  const blog = getBlog(params.slug);
+  return [
+    { title: (blog?.title || "Blog Post") + " | Fen1x Rising" },
+    { name: "description", content: blog?.summary || "Blog post" },
+  ];
+}
 
 export default function BlogDetail() {
     const [markdown, setMarkdown] = useState("");

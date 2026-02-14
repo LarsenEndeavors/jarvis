@@ -1,5 +1,13 @@
+import type { Route } from "./+types/work._index";
 import Card from "~/components/Card";
 import { projects } from "~/content/projects";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Work | Fen1x Rising" },
+    { name: "description", content: "Selected builds and experiments" },
+  ];
+}
 
 export default function WorkIndex() {
     return (

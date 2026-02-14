@@ -1,5 +1,14 @@
+import type { Route } from "./+types/work.$slug";
 import { Link, useParams } from "react-router";
 import { getProject } from "~/content/projects";
+
+export function meta({ params }: Route.MetaArgs) {
+  const project = getProject(params.slug);
+  return [
+    { title: (project?.title || "Project") + " | Fen1x Rising" },
+    { name: "description", content: project?.summary || "Project details" },
+  ];
+}
 
 export default function WorkDetail() {
     const { slug } = useParams()

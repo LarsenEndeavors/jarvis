@@ -1,4 +1,12 @@
+import type { Route } from "./+types/lab";
 import { Link } from "react-router";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Lab | Fen1x Rising" },
+    { name: "description", content: "Experiments and projects I'm working on" },
+  ];
+}
 
 export default function Lab() {
     return (

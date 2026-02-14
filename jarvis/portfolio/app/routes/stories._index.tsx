@@ -1,5 +1,13 @@
+import type { Route } from "./+types/stories._index";
 import Card from "~/components/Card";
 import { stories } from "~/content/stories";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Stories | Fen1x Rising" },
+    { name: "description", content: "A selection of short stories" },
+  ];
+}
 
 export default function StoryIndex() {
     return (

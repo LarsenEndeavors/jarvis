@@ -1,5 +1,14 @@
 import { useState } from "react";
 
+import type { Route } from "./+types/contact";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Contact | Fen1x Rising" },
+    { name: "description", content: "Get in touch" },
+  ];
+}
+
 export default function Contact() {
     const [status, setStatus] = useState<"idle" | "success" | "sending" | "error">("idle");
     const [error, setError] = useState<string | null>(null);

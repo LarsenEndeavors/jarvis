@@ -1,6 +1,13 @@
+import type { Route } from "./+types/blog._index";
 import { Link } from "react-router";
 import { blogs } from "~/content/blogs";
 
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Blog | Fen1x Rising" },
+    { name: "description", content: "Notes on games, writing, and what I'm building" },
+  ];
+}
 
 export default function BlogIndex() {
     

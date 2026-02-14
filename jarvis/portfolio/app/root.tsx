@@ -15,7 +15,7 @@ export default function Root() {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <Links />
-        <Meta />
+        <Meta  />
       </head>
       <body className="bg-black text-slate-100 overflow-x-hidden">
         <MatrixBackground />

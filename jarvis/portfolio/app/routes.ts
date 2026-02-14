@@ -6,6 +6,7 @@ export default [
     ...prefix("work", [
         index("./routes/work._index.tsx"),
         route(":slug", "./routes/work.$slug.tsx"),
+        
     ]),
 
     ...prefix("stories", [

@@ -1,7 +1,16 @@
+import type { Route } from "./+types/stories.$slug";
 import { Link, useParams } from "react-router";
 import Markdown from "react-markdown";
 import { useEffect, useState } from "react";
 import { getStory } from "~/content/stories";
+
+export function meta({ params }: Route.MetaArgs) {
+  const story = getStory(params.slug);
+  return [
+    { title: (story?.title || "Story") + " | Fen1x Rising" },
+    { name: "description", content: story?.summary || "A short story" },
+  ];
+}
 
 export default function StoryDetail() {
     const [markdown, setMarkdown] = useState("");
