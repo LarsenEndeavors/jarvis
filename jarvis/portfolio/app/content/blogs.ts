@@ -9,12 +9,12 @@ export type Blog = {
 
 export const blogs: Blog[] = [
     {
-        title: "Hello World",
-        summary: "First Post. Suck it, executive dysfunction.",
+        title: "Hello World, Seems You're on Fire",
+        summary: "An Introduction to Nick",
         date: "2026-01-30",
-        tags: ["Initial"],
-        slug: "hello-world",
-        markdownPath: "/content/blogs/hello-world.md"
+        tags: ["Introduction"],
+        slug: "helloWorld",
+        markdownPath: "/content/blogs/helloWorld.md"
     },
 ]
 
