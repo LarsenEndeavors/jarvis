@@ -34,7 +34,21 @@ export const stories: Story[] = [
         tags: ["Absurdist", "Existential"],
         slug: "theScrew",
         markdownPath: "/content/stories/theScrew.md"
-    }
+    },
+    {
+        title: "The Heap",
+        summary: "Rez falls into hell, and it is scared of her",
+        tags: ["Fantasy", "Cyberpunk", "Doom"],
+        slug: "theHeap",
+        markdownPath: "/content/stories/theHeap.md"
+    },
+    {
+        title: "The Forest in the Stars",
+        summary: "A painter sees his place in the cosmos",
+        tags: ["Fantasy", "Existential", "Artistic"],
+        slug: "forestInTheStars",
+        markdownPath: "/content/stories/theForestInTheStars.md"
+    },
 ]
 
 export function getStory(slug: string) {

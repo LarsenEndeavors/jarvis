@@ -1,0 +1,24 @@
+# The Heap
+
+Rez woke before she opened her eyes, the oppressive red neon sign shining through her blinds, a reminder of another night in the Heaps. Groggily, she zipped up her hazard suit and stumbled blearily out the door, into the main thoroughfare.
+
+The streets were crowded with Users sweeping past, moving quickly from one exchange to another. Rez found it oddly beautiful, like schools of fish gliding through the ocean. She made her way to the subway, forcing herself into a crammed car full of others dressed just like her. As the doors closed, the subway descended into the eerie, lurking dark.
+
+As the train plunged deeper, the occasional flash of lanterns started to dim. Deeper and deeper they went, and Rez began counting the lights. "12...13...14... and..." she whispered, just as the wailing began. She remembered her first trip to the Heaps, terrified, no hazard gear, completely vulnerable. Now, she almost felt bored as she looked around the car, seeing her fellow Scrapers just as relaxed as she was.
+
+**SMASH**
+
+Rez was thrown to the ground as the lights flickered and dimmed. Ten heartbeats later, something began pulling the subway off the tracks. She could feel it, the oppressive void. This was what their suits were for. She remained calm, even as the others began to panic. She couldn't see them, but she heard their screams. "Slow... move slow... stay calm... it's just another void, we have our suits."
+
+While chaos erupted around her, Rez groggily made her way to the back of the train. She opened a small closet and tucked herself inside. Just as she secured the door, the car lurched and was pulled into the void, a fall that seemed to last an eternity. The sounds from the train car were horrifying, but she waited. Just as she was certain she would never land, the car slammed up to meet her.
+
+Rez had been working in the Heap for five years now. In that time, she'd heard of events like this, some fanatic cracking a window and letting the void in, but she had never experienced one herself. Very few Scrapers were known for making it out of the void. Those who felt less, who could shut off their emotions and think without feeling, were the ones who survived. They were the ones suited for the job.
+
+Rez woke to the sound of something, nothing, scratching at the closet door. Her breath caught, but she forced herself to remain still. The void had ways of playing tricks, twisting sounds and thoughts alike. She counted her heartbeats again, trying to anchor herself as the relentless scratching grew louder, more insistent, like claws made of absence itself. Slowly, with trembling hands, she unzipped the hazard suit's front pocket and retrieved her small utility knife. It wasn’t much, but it was something, a tether to reality amidst the void’s pull.
+The door creaked open on its own, and Rez blinked against the dark. She rose slowly, knife in hand, and stepped out into the train car, or what remained of it. The car was warped, twisted beyond recognition, and the walls bled into each other like the fabric of reality was struggling to hold. Ahead of her, the subway car opened into an impossibly vast expanse, an endless, formless landscape of shifting shadows and flickering lights. She could hear something, no, feel it. The monsters weren’t visible at first, but the moment she looked, they started to form. Silhouettes moving in the edges of her vision, their shapes never solid. They were predators, born from the void itself. Their forms shifted between jagged, spiny figures and sleek, predatory outlines, as if made from the dark thoughts lurking at the back of her mind.
+
+The ground beneath her feet rippled, alive with their presence, as she moved cautiously forward. Each step felt like stepping through thickened air, the void pressing in around her, suffocating her movements. A creature, if she could call it that, emerged from the haze in front of her. It was more absence than form, its face a blank, yawning space of nothingness, limbs stretching and contracting like shadows cast by some invisible light. She froze, knife trembling in her hand, but the creature didn’t lunge. It simply stared, or at least, it felt like it stared, Rez couldn't even tell if it had eyes.
+
+Suddenly, they all moved at once. The formless entities swarmed, not running or attacking, but converging, like shadows drawn to a flicker of flame. The void howled around her as they closed in, her heartbeat syncing with the flickering lanterns in the far distance. In the chaos, she felt something old and deep stir within her, a cold, emotionless calm. Rez could feel herself shutting off, numbing every part of her being. She wasn’t afraid. She couldn’t afford to be.
+
+The void wasn’t an enemy. It was just another job.
