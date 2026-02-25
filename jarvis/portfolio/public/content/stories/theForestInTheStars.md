@@ -1,14 +1,24 @@
 # The Forest in the Stars
 
 Urq'lo stared at the night sky, and at once, he saw the universe. His knees buckled, slamming into the damp earth under the weight of a billion stories sung to him by a million speckled and pulsing gateways. His tears flowed so freely that a small puddle began forming around him, as his eyes beheld the truth of his existence, of all existence.
+
 "We... are all nothing," he whispered, "yet we scream, and those screams are ripples that become mighty waves, crashing against the shores of existence, proclaiming that all-consuming, completely meaningless sentiment: _I was here._"
 The wind swept around Urq'lo, blowing his already-disheveled hood off, revealing only tired eyes behind his otherwise masked face. Gathering himself as best he could, he began unpacking his toolkit, ready to create his masterpiece. He would show everyone what they could not see, the things that Urq'lo had seen for so long.
+
 Urq'lo had always been aware of patterns. He had seen them form a kind of rhythm, and tonight, he saw the patterns through the stars. The strings that bound them all together were so obvious to him, he felt close to them, and so he painted. Each stroke brought the void to life, though the void unsettled him, especially as it began to consume the entire canvas. With mixtures of dark reds and blues, he captured the true viciousness of the nothingness that surrounded them at all times, like a lazy predator with too much time on its hands.
+
 Urq'lo stared into the starless void, and a cold emptiness spread through him, as if the earth beneath him had opened up. He felt the shadows creeping at the edge of his mind, dark and formless, stirring memories long buried. The weight of a silence too deep to break settled over him. Where once he had turned away, tonight, he leaned into that void, slowly, cautiously, like a man standing at the edge of a precipice, feeling the wind push against him. His hand trembled, but he did not pull back.
+
 Each dot of paint was a wound, and each stroke, a release. The canvas filled with tiny points of light, but with every new star, the darkness between them seemed to swell, as though it, too, had a voice. It whispered of things forgotten, things left unsaid, gnawing at the edges of his thoughts like a predator stalking unseen. Still, Urq'lo listened. He welcomed the shadows, guiding them gently across the canvas, turning the void into a story of its own.
+
 As the stars multiplied on the canvas, something shifted within him. There was a pull, faint but undeniable, like unseen strings tugging from beneath the surface. He followed the tug, not resisting. With each stroke, he retraced old scars and long-faded memories, feelings that had once whispered doubts into his mind. But tonight, those echoes felt softer, distant. He acknowledged their presence, but they no longer held him.
+
 He sat back for a moment, his hand resting lightly on the brush, watching the painting come to life. The imperfections were clear, but they added a quiet authenticity to the work, like cracks in weathered stone, proof that time had passed and lessons had been learned. He smiled, the tension easing from his shoulders as he accepted the journey that had brought him here. This was not a pursuit of perfection, but of truth.
+
 Lowering the brush, Urq'lo unfurled a small wind-painting device, blending sand into the air with precise movements. The device hummed as it captured the swirling grains, reshaping them into a vision that matched the stars above. He removed his tear-streaked mask, letting the cool night air touch his face. With practiced skill, he manipulated the wind and sand, forming shapes that danced between the canvas and sky, a reflection of the delicate threads connecting all things.
+
 His gaze softened as he traced the lines between his hands, the stars, and the earth beneath him. The silent bonds had always been there, unseen but ever-present, weaving his life into the greater whole. The fear that had once chased him was still there, lingering in the distance, but now it felt more like an old companion, one whose presence he had learned to accept.
+
 After a few final strokes, Urq'lo gazed at his creation. Large enough to hang over any mantle, the painting depicted a man standing on the edge of a planet, bound to both the world and the cosmos by threads that danced among the stars. They formed a canopy above him, like the branches of a great tree, reaching across the heavens.
+
 He smiled and sighed, knowing he had finished his masterpiece. Without looking back, Urq'lo stood and left the painting behind, waiting for someone else to find.
