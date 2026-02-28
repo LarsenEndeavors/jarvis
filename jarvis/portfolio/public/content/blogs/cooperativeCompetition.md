@@ -1,4 +1,6 @@
-> What's up Gang and welcome to Choose Wisely, a show for DMs, GMs, and players mostly through the guise of Fifth Edition Dungeons & Dragons.  I'm Fenix, a forever DM with over 12 years experience running games in settings from one-on-one to massive multi-room tables.
+# How to Win D&D
+
+> What's up Gang and welcome to Fen1x Rising, a blog for DMs, GMs, and players mostly through the guise of Fifth Edition Dungeons & Dragons.  I'm Fenix, a forever DM with over 12 years experience running games in settings from one-on-one to massive multi-room tables.
 
 ## Why I love TTRPGs
 
