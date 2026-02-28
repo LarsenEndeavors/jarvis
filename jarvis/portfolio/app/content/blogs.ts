@@ -9,6 +9,14 @@ export type Blog = {
 
 export const blogs: Blog[] = [
     {
+        title: "How to win D&D",
+        summary: "D&D is a game, you win when the DM yells \"Fuck you\"",
+        date: "2026-02-25",
+        tags: ["D&D", "DM", "Players"],
+        slug: "cooperativeCompetition",
+        markdownPath: "/content/blogs/cooperativeCompetition.md"
+    },
+    {
         title: "Hello World, Seems You're on Fire",
         summary: "An Introduction to Nick",
         date: "2026-01-30",
