@@ -14,8 +14,8 @@ export default function Root() {
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <Links />
         <Meta  />
+        <Links />
       </head>
       <body className="bg-black text-slate-100 overflow-x-hidden">
         <MatrixBackground />
@@ -52,15 +52,26 @@ export function HydrateFallback() {
 }
 
 export function meta() {
+  const title = "Nicholas Larsen — Architect / Storyteller";
+  const desc = "Projects, writing, and systems—portfolio and lab notes.";
+  const url = "https://fen1x.org/";
+  const img = "https://fen1x.org/og.png";
+
   return [
-    { title: "Nicholas Larsen — Architect / Storyteller" },
-    { name: "description", content: "Projects, writing, and systems—portfolio and lab notes." },
-    { property: "og:title", content: "Nicholas Larsen — Architect / Storyteller" },
-    { property: "og:description", content: "Projects, writing, and systems—portfolio and lab notes." },
+    { title },
+    { name: "description", content: desc },
+
+    { property: "og:site_name", content: "fen1x.org" },
+    { property: "og:title", content: title },
+    { property: "og:description", content: desc },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://fen1x.org/" },
-    { property: "og:image", content: "https://fen1x.org/og.png" },
+    { property: "og:url", content: url },
+    { property: "og:image", content: img },
+    { property: "og:image:alt", content: "Nicholas Larsen — Architect / Storyteller" },
+
     { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:image", content: "https://fen1x.org/og.png" },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: desc },
+    { name: "twitter:image", content: img },
   ];
 }
