@@ -8,6 +8,13 @@ export type Story = {
 
 export const stories: Story[] = [
     {
+        title: "Darklight Forest",
+        summary: "A hunter seeks his prey in the forest where the Shadowfell and Faewild meet",
+        tags: ["Fantasy", "Dark", "Action"],
+        slug: "darklightForest",
+        markdownPath: "/content/stories/darklightForest.md"
+    },
+    {
         title: "Silence",
         summary: "An assassin finds his pulse in a cyberpunk dystopia",
         tags: ["Fantasy", "Cyberpunk", "Noir"],
