@@ -5,10 +5,24 @@ import { useEffect, useState } from "react";
 import { getBlog } from "~/content/blogs";
 
 export function meta({ params }: Route.MetaArgs) {
-  const blog = getBlog(params.slug);
+  const post = params.slug ? getBlog(params.slug) : undefined;
+  if (!post) return [{ title: "Not Found" }];
+
+  const title = `${post.title} — Blog`;
+  const desc = post.summary || "Blog post on fen1x.org";
+  const url = `https://fen1x.org/blog/${post.slug}`;
+  const img = "https://fen1x.org/og.png";
+
   return [
-    { title: (blog?.title || "Blog Post") + " | Fen1x Rising" },
-    { name: "description", content: blog?.summary || "Blog post" },
+    { title },
+    { name: "description", content: desc },
+    { property: "og:title", content: title },
+    { property: "og:description", content: desc },
+    { property: "og:url", content: url },
+    { property: "og:image", content: img },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: desc },
+    { name: "twitter:image", content: img },
   ];
 }
 

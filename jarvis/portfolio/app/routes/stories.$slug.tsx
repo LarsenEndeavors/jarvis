@@ -5,10 +5,24 @@ import { useEffect, useState } from "react";
 import { getStory } from "~/content/stories";
 
 export function meta({ params }: Route.MetaArgs) {
-  const story = getStory(params.slug);
+  const story = params.slug ? getStory(params.slug) : undefined;
+  if (!story) return [{ title: "Not Found" }];
+
+  const title = `${story.title} — Stories`;
+  const desc = story.summary || "Short story on fen1x.org";
+  const url = `https://fen1x.org/stories/${story.slug}`;
+  const img = "https://fen1x.org/og.png";
+
   return [
-    { title: (story?.title || "Story") + " | Fen1x Rising" },
-    { name: "description", content: story?.summary || "A short story" },
+    { title },
+    { name: "description", content: desc },
+    { property: "og:title", content: title },
+    { property: "og:description", content: desc },
+    { property: "og:url", content: url },
+    { property: "og:image", content: img },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: desc },
+    { name: "twitter:image", content: img },
   ];
 }
 
