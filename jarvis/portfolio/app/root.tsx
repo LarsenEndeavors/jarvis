@@ -2,6 +2,32 @@ import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
 import Nav from "~/components/Nav";
 import MatrixBackground from "~/components/MatrixBackground";
 import "./app.css";
+import type { Route } from "./+types/root";
+
+export function meta({}: Route.MetaArgs) {
+  const title = "Nicholas Larsen — Architect / Storyteller";
+  const desc = "Projects, writing, and systems—portfolio and lab notes.";
+  const url = "https://fen1x.org/";
+  const img = "https://fen1x.org/og.png";
+
+  return [
+    { title },
+    { name: "description", content: desc },
+
+    { property: "og:site_name", content: "fen1x.org" },
+    { property: "og:title", content: title },
+    { property: "og:description", content: desc },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: url },
+    { property: "og:image", content: img },
+    { property: "og:image:alt", content: "Nicholas Larsen — Architect / Storyteller" },
+
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: title },
+    { name: "twitter:description", content: desc },
+    { name: "twitter:image", content: img },
+  ];
+}
 
 export default function Root() {
   return (
@@ -40,38 +66,4 @@ export default function Root() {
       </body>
     </html>
   );
-}
-
-export function HydrateFallback() {
-  return (
-    <div className="mx-auto max-w-5xl px-4 py-10">
-      <h1 className="text-2xl font-semibold">Nicholas Larsen</h1>
-      <p className="mt-2 opacity-80">Architect / Storyteller — work, stories, experiments.</p>
-    </div>
-  );
-}
-
-export function meta() {
-  const title = "Nicholas Larsen — Architect / Storyteller";
-  const desc = "Projects, writing, and systems—portfolio and lab notes.";
-  const url = "https://fen1x.org/";
-  const img = "https://fen1x.org/og.png";
-
-  return [
-    { title },
-    { name: "description", content: desc },
-
-    { property: "og:site_name", content: "fen1x.org" },
-    { property: "og:title", content: title },
-    { property: "og:description", content: desc },
-    { property: "og:type", content: "website" },
-    { property: "og:url", content: url },
-    { property: "og:image", content: img },
-    { property: "og:image:alt", content: "Nicholas Larsen — Architect / Storyteller" },
-
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: title },
-    { name: "twitter:description", content: desc },
-    { name: "twitter:image", content: img },
-  ];
 }

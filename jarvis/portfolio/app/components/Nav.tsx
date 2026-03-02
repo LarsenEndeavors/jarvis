@@ -47,8 +47,9 @@ export default function Nav() {
                 >
                     {/* Top brand block */}
                     <div className="p-5 border-b border-white/10">
-                        <a href="/" className="flex items-center gap-3">
-                            <div className="leading-tight">
+                        <a href="/" className="flex flex-col items-center gap-3">
+                            <img src="/og.png" alt="Logo" className="w-30 h-30 rounded" />
+                            <div className="leading-tight text-center">
                                 <div className="font-semibold text-white">Nicholas Larsen</div>
                                 <div className="text-xs text-white/70">Architect / Storyteller</div>
                             </div>
