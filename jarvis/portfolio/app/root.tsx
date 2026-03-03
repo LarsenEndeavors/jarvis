@@ -63,6 +63,8 @@ export default function Root() {
         </div>
         <ScrollRestoration />
         <Scripts />
+        <script src="/scripts/snipcart-init.js" defer></script>
+        <div hidden id="snipcart" />
       </body>
     </html>
   );
